@@ -9,7 +9,7 @@ When trying to run your first .sh file, you will most likely recieve an error: P
 chmod +x filename 
 ```
 ======================================================================================
-Running the file:
+>>Running the file:
 ```shell
 ./filename.sh
 ```
@@ -20,5 +20,16 @@ shebang (#!) may look like:
 ```shell
 #! /bin/bash
 ```
-
-
+=======================================================================================
+>>Creating variables:
+```shell
+NAME="Alex" #it is conventional to make var names uppercase. cannot use spaces inbetween '='
+NUM0=19 #same syntax for an integar
+NUM1=19.01 #as well as a float value
+```
+=======================================================================================
+>>Input and output
+```shell
+read -p "Hello what is your name? :" USRNM #read can take input, -p specifies a prompt will be used and the var can be specified after with a space after the quotation
+echo "Hello $USRNM" #echo is how you output to the screen, to pass a var into output you must use the syntax: $VAR or ${VAR}
+```
