@@ -10,13 +10,15 @@ chmod +x filename
 ```
 ======================================================================================
 Running the file:
-```shell ./filename.sh
+```shell
+./filename.sh
 ```
 =======================================================================================
 when creating a shell script must use "shebang" /location/bash
 >>to find the location of where bash is located use command: which bash. that location will be used following shebang.
 shebang syntax look like:
-```shell #! /bin/bash
+```shell
+#! /bin/bash
 ```
 
 
