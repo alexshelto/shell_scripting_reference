@@ -6,7 +6,9 @@ When trying to run your first .sh file, you will most likely recieve an error: P
 -THis is because you have to give the file permission to be an executable, to do so:
 
 ```shell
-chmod +x filename ```
+chmod +x filename 
+```
+
 
 trying to run a new shell script can throw a Permissions Denied Error.
 >> To solve this problem use command: chmod +x filename //allows you to run the file
