@@ -30,6 +30,8 @@ NUM1=19.01 #as well as a float value
 =======================================================================================
 >>Input and output
 ```shell
-read -p "Hello what is your name? :" USRNM #read can take input, -p specifies a prompt will be used and the var can be specified after with a space after the quotation
-echo "Hello $USRNM" #echo is how you output to the screen, to pass a var into output you must use the syntax: $VAR or ${VAR}
+read -p "Hello what is your name? :" USRNM #read can take input, -p specifies a prompt
+#-will be used and the var can be specified after with a space after the quotation
+echo "Hello $USRNM" #echo is how you output to the screen, to pass a var into output
+#- you must use the syntax: $VAR or ${VAR}
 ```
