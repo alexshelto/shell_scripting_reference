@@ -3,11 +3,11 @@ This repository contains basic flow of programming and syntax for a bash shell s
 
 ==================================================================================================================
 When trying to run your first .sh file, you will most likely recieve an error: Permissions Denied Error.
--THis is because you have to give the file permission to be an executable, to do so:
-
+-This is because you have to give the file permission to be an executable, to do so:
 ```shell
 chmod +x filename 
 ```
+===================================================================================================================
 
 
 trying to run a new shell script can throw a Permissions Denied Error.
